@@ -1,0 +1,75 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #928989;
+}
+
+header {
+    background-color: #1d1515;
+    color: #c29393;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: armenian;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #680a0a;
+}
+
+.hero {
+    background-image: url(personagem\ principal.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #f7fdfb;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #0e0303;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #141010;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
